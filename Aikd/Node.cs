@@ -31,18 +31,18 @@ namespace Aikd
                 }
                 return _Count;
             }
-    }
+        }
 
-    public Node(char? newChar)
-    {
-        Code = "";
-        Char = newChar;
-        _Count = 1;
-    }
+        public Node(char? newChar)
+        {
+            Code = "";
+            Char = newChar;
+            _Count = 1;
+        }
 
-    public void CountAdd()
-    {
-        _Count++;
+        public void CountAdd()
+        {
+            _Count++;
+        }
     }
-}
 }
